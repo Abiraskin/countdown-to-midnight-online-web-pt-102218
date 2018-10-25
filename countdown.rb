@@ -8,3 +8,12 @@ def countdown (time)
 end
 puts "HAPPY NEW YEAR!"
 end
+
+def countdown (time)
+  time = 10
+  while time > 0
+    sleep (1)
+  time -= 1
+end
+puts "HAPPY NEW YEAR!"
+end
